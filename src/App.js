@@ -37,7 +37,13 @@ function App() {
           <h1>{userCount}</h1>
         </p>
       </header>
+      <body>
+        <button>
+          화면설정
+        </button>
+      </body>
     </div>
+    
   );
 }
 
