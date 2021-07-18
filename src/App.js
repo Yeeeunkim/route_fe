@@ -33,7 +33,7 @@ function App() {
           <span>서버와 연결되면 "Hi"가 노출됩니다.</span>
           <h1>{element}</h1>
           <br/>
-          <span>DB와 연결되면 회원수가 노출됩니다.</span>
+          <span>DB와 연결되면 회원수가 노출됩니다!!</span>
           <h1>{userCount}</h1>
         </p>
       </header>
