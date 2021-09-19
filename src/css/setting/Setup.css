@@ -1,0 +1,104 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+.Setup{
+    width: 80%;
+    margin: auto;
+    font-family: 'NanumSquare',sans-serif;
+}
+.Setup h2{
+    margin-left: 10%;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: bolder;
+}
+.button-reset{
+    background-color: #A3A5A7;
+    /* border-radius: 10px; */
+    color: white; 
+    width: 100px;
+    height: 30px; 
+    float: right; 
+    margin-right: 10%;
+    margin-top: 35px;
+}
+#Content{
+    clear: both;
+    background-color: #EFEFEF;
+    min-height: 600px;
+    width: 80%;
+    margin: auto;
+    padding:0;
+    padding-top: 1px;
+}
+
+.WidgetSpace{
+    /* background-color: #A1A1A1; */
+    border: 2px dashed white;
+    background-color: rgb(247, 247, 247);
+    margin:10px;
+    min-height: 120px;
+    line-height: 120px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0px rgb(185, 185, 185);
+}
+.WidgetSpace img{
+    width: 30px;
+    height: auto;
+    margin: auto;
+    vertical-align: middle;
+}
+.button-close{
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #A3A5A7;
+    float: right;
+    margin: 10px 10px 0px 0px;
+}
+#WidgetWrapper{
+    position: fixed;
+    top: 10%;
+    right: 20px;
+    height: 500px;
+    text-align: center;
+}
+#WidgetWrapper img{
+    width: 50px;
+    margin-bottom: -10px;
+}
+.Widget{
+    background-color: #EFEFEF;
+    width: 120px;
+    height: 100px;
+    margin-top: 10px;
+}
+.themeSet{
+    clear: both;
+    margin: 10px;
+    margin-left: 10%;
+    height: 38px;
+    line-height: 38px;
+}
+.themeSet>span{
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    padding-top: -10px;
+    background-color: gold;
+}
+.theme-container{
+    display: inline-block;
+    width: 500px;
+    height: 38px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: darkgray;
+}
+.theme{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+    background-color: gainsboro;
+}
