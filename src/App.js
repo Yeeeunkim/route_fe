@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Header from './common/Header';
+// import Header from './common/Header';
 import Content from './main/Content';
 import './css/Main.css';
 import axios from 'axios';
@@ -9,8 +9,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Login from './components/views/loginForm/login'
 import joinForm from './components/views/joinForm/joinForm.js';
-import menubar from './components/views/common/menubar.js';
+// import menubar from './components/views/common/menubar.js';
 
 
 function App() {
@@ -37,37 +38,13 @@ function App() {
 
 
   return (
-<<<<<<< HEAD
     <div className="main">
-
-      <Header/>
-      <Content/>
+      <Route exact path="/" component={Content} />
+      <Route path="/login" component={Login} />
+      {/* <Header/> */}
       
     </div>
     
-=======
-    <Router>
-    <div>
-    <div className="App">
-      <header className="App-header">
-      <Switch>
-        <Route exact path="/joinForm" component={joinForm} />
-        <Route exact path="/menubar" component={menubar} />
-        <p>
-            리액트 스프링부트 연동 테스트
-            <br/>
-            <span>서버와 연결되면 "Hi"가 노출됩니다.</span>
-            <h1>{element}</h1>
-            <br/>
-            <span>DB와 연결되면 회원수가 노출됩니다!!</span>
-            <h1>{userCount}</h1>
-          </p>
-      </Switch>
-      </header>
-    </div>
-    </div>
-  </Router>
->>>>>>> origin/yeun
   );
 }
 
